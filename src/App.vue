@@ -1,7 +1,7 @@
 <template>
   <v-app id="app" class="mt-0">
     <v-container grid-list-xl>
-      <FileInput v-model="avatar">
+      <image-input v-model="avatar">
         <div slot="activator">
           <v-avatar size="150px" v-ripple v-if="!avatar" class="grey lighten-3 mb-3">
             <span>Click to add avatar</span>
@@ -10,7 +10,7 @@
             <img :src="avatar.imageURL" alt="avatar">
           </v-avatar>
         </div>
-      </FileInput>
+      </image-input>
       <v-slide-x-transition>
         <div v-if="avatar && saved == false">
           <v-btn class="primary" @click="uploadImage" :loading="saving">Save Avatar</v-btn>
@@ -33,7 +33,7 @@ export default {
     }
   },
   components: {
-    FileInput: ImageInput
+    ImageInput: ImageInput
   },
   watch:{
     avatar: {
@@ -58,7 +58,6 @@ export default {
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;

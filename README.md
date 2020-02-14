@@ -1,6 +1,7 @@
 # image-upload
 
-> a repository to demonstrate an image uploader component for vue.js 2.0
+> A companion repository for a [Vue.js 2 image uploading component tutorial](https://medium.com/free-code-camp/how-to-build-a-flexible-image-uploader-component-using-vue-js-2-0-5ee7fc77516)
+
 
 ## Build Setup
 

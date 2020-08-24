@@ -2,6 +2,7 @@
 
 > A companion repository for a [Vue.js 2 image uploading component tutorial](https://medium.com/free-code-camp/how-to-build-a-flexible-image-uploader-component-using-vue-js-2-0-5ee7fc77516)
 
+[![Run on Repl.it](https://repl.it/badge/github/cathyhax/image-uploader)](https://repl.it/github/cathyhax/image-uploader)
 
 ## Build Setup
 
